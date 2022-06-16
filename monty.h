@@ -94,7 +94,6 @@ extern data_t data;
 
 /* main.c */
 void monty(args_t *args);
-data_t data = DATA_INIT;
 
 /* get_func.c */
 void (*get_func(char **parsed))(stack_t **, unsigned int);
